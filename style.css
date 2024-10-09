@@ -26,6 +26,12 @@ li {
     list-style: none;
 }
 
+p {
+    font-weight: 500;
+    color: rgb(158, 157, 162);
+    line-height: 28px;
+}
+
 /* header styles */
 
 .header .container{
@@ -54,9 +60,67 @@ li {
 
 .header__btn{
     margin-left: 46px;
-
     background-color: #75BF7A;
     border: none;
     padding: 12px 28px;
     border-radius: 6px;
+    color: #fff;
+    font-size: 22px;
+}
+
+/* main section */
+
+main{
+    background-color: rgb(229, 229, 229);
+}
+
+/* weclome section */
+
+.welcome .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome__text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.welcome__title{
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 65px;
+
+    margin-top: 154px;
+}
+
+.welcome__subtitle{
+    padding-top: 30px;
+}
+
+.welcome__btns{
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+}
+
+.welcome__btn{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.welcome__btn img{
+    margin-right: 15px;
+}
+
+.welcome__main{
+    margin-top: 55px;
 }
