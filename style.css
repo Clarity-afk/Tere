@@ -216,14 +216,40 @@ main{
 }
 
 .instruction__wrap {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
     /* flex-direction: column; */
+    grid-template-areas: 
+    "A E B"
+    "C E D"
+    ". . .";
 }
 
 .instruction__item {
     max-width: 300px;
     display: flex;
     flex-direction: column;
+}
+
+.instruction__item1{
+    grid-area: A;
+}
+
+.instruction__item2{
+    grid-area: B;
+}
+
+.instruction__item3{
+    grid-area: E;
+}
+
+.instruction__item4{
+    grid-area: C;
+}
+
+.instruction__item5{
+    grid-area: D;
 }
 
 .instruction__item img{
@@ -239,14 +265,14 @@ main{
 }
 .instruction__phone{
     max-width: 400px;
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
 }
 
-/* .instruction__item:nth-child(1) .instruction__item-subtitle,
+.instruction__item:nth-child(1) .instruction__item-subtitle,
 .instruction__item:nth-child(3) .instruction__item-subtitle {
     text-align: right;
 }
 .instruction__item:nth-child(2) .instruction__item-subtitle,
 .instruction__item:nth-child(4) .instruction__item-subtitle {
     text-align: left;
-} */
+}
