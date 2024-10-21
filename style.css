@@ -224,6 +224,9 @@ main{
     "A E B"
     "C E D"
     ". . .";
+
+    justify-content: center;
+    margin-top: 65px;
 }
 
 .instruction__item {
@@ -268,11 +271,20 @@ main{
     /* flex-basis: 100%; */
 }
 
-.instruction__item:nth-child(1) .instruction__item-subtitle,
-.instruction__item:nth-child(3) .instruction__item-subtitle {
+.instruction__item1, .instruction__item4{
     text-align: right;
+    align-items: end
 }
-.instruction__item:nth-child(2) .instruction__item-subtitle,
-.instruction__item:nth-child(4) .instruction__item-subtitle {
+
+.instruction__item2, .instruction__item5{
     text-align: left;
+    align-items: start;
 }
+
+.instruction__slider-wrap{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 60px;
+}
+
