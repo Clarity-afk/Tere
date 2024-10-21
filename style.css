@@ -32,6 +32,10 @@ p {
     line-height: 28px;
 }
 
+.green {
+    color: #75BF7A;
+}
+
 /* header styles */
 
 .header .container{
@@ -46,6 +50,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 50px;
 }
 
 .header__nav{
@@ -79,6 +84,7 @@ main{
 .welcome .container{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 90px;
 }
 
 .welcome__text{
@@ -124,3 +130,123 @@ main{
 .welcome__main{
     margin-top: 55px;
 }
+
+/* input section */
+
+.input .container{
+    background-color: #75BF7A;
+    border-radius: 10px;
+}
+
+.input__wrap{
+    padding: 55px 70px;
+    display: flex;
+
+    align-items: center;
+}
+.input__title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+
+    max-width: 250px;
+
+    padding-right: 120px;
+}
+
+.input__input {
+    max-width: 500px;
+    min-width: 280px;
+    height: 67px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+
+    outline: none;
+}
+
+.input__input::placeholder{
+    font-size: 20px;
+    font-weight: 600;
+    color: #dadada;
+    padding-left: 35px;
+}
+
+.input__btn {
+    background-color: #000;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    max-width: 260px;
+    width: 100%;
+    height: 67px;
+
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 16px;
+}
+
+.input__btn-text{
+    font-size: 22px;
+}
+
+/* instructions section */
+
+.instruction .container{
+    padding-top: 130px;
+}
+
+.instruction__text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.instruction__title {
+
+}
+
+.instruction__subtitle {
+    max-width: 620px;
+    text-align: center;
+    
+}
+
+.instruction__wrap {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.instruction__item {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.instruction__item img{
+    width: 60px;
+}
+
+.instruction__item-title {
+
+}
+
+.instruction__item-subtitle {
+
+}
+.instruction__phone{
+    max-width: 400px;
+    flex-basis: 100%;
+}
+
+/* .instruction__item:nth-child(1) .instruction__item-subtitle,
+.instruction__item:nth-child(3) .instruction__item-subtitle {
+    text-align: right;
+}
+.instruction__item:nth-child(2) .instruction__item-subtitle,
+.instruction__item:nth-child(4) .instruction__item-subtitle {
+    text-align: left;
+} */
