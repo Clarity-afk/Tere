@@ -63,6 +63,11 @@ p {
     gap: 46px;
 }
 
+.header__list-item{
+    font-weight: 500;
+    font-size: 17px;
+}
+
 .header__btn{
     margin-left: 46px;
     background-color: #75BF7A;
@@ -71,6 +76,8 @@ p {
     border-radius: 6px;
     color: #fff;
     font-size: 22px;
+
+    font-weight: 600;
 }
 
 /* main section */
@@ -206,7 +213,7 @@ main{
 }
 
 .instruction__title {
-
+    font-size: 46px;
 }
 
 .instruction__subtitle {
@@ -260,7 +267,7 @@ main{
 }
 
 .instruction__item-title {
-
+    
 }
 
 .instruction__item-subtitle {
@@ -297,6 +304,11 @@ main{
 .benefits__text {
 }
 .benefits__title {
+    font-size: 46px;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 52px;
 }
 
 .benefits__cads {
