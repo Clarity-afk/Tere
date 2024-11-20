@@ -472,6 +472,10 @@ p {
         text-align: center;
     }
 
+    .welcome__title h2{
+        font-size: 34px;
+    }
+
     .welcome__subtitle{
         text-align: center;
     }
@@ -553,7 +557,7 @@ p {
     }
 
     .instruction__subtitle{
-        font-size: 15px;
+        
     }
 
     .instruction__wrap{
@@ -563,7 +567,13 @@ p {
     }
 
     .instruction__item-title{
-        font-size: 24px;
+        font-size: 22px;
+        font-weight: 800
+    }
+
+    .instruction__item-subtitle{
+        font-size: 22px;
+        font-weight: 500;
     }
 
     .benefits__title{
@@ -580,11 +590,17 @@ p {
     }
 
     .benefits__text-title{
-        font-size: 24px;
+        font-size: 24.98px;
+        font-weight: 600;
+        padding-left: 10px;
     }
 
     .benefits__text-subtitle{
-        font-size: 15px;
+        font-size: 16.19px;
+        font-weight: 500;
+
+        padding-top: 10px;
+        padding-bottom: 30px;
     }
 
     .footer__text{
@@ -601,11 +617,11 @@ p {
 
     .footer-wrap{
         gap: 0;
+        justify-content: center;
     }
 
     .footer__btns{
         display: flex;
-        justify-content: center;
         align-items: center;
     }
 }
